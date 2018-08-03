@@ -1,0 +1,28 @@
+{
+  "name": "bigjira",
+  "version": "1.0.0",
+  "description": "Receives webhooks from JIRA and acts on them; fires webhooks of its own when required.",
+  "main": "bigjira.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://big_wave_dave@bitbucket.org/big_wave_dave/bigjira.git"
+  },
+  "keywords": [
+    "bigjira",
+    "webhooks",
+    "jira"
+  ],
+  "author": "Dave Lindsey",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/big_wave_dave/bigjira#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jira-client": "^6.4.1",
+    "localtunnel": "^1.9.0",
+    "q": "^1.5.1",
+    "request": "^2.85.0"
+  }
+}
