@@ -6,7 +6,7 @@ var jiraconfig  = require('./jiraconfig.json');
 // Call the express constructor
 var app = express();
 var port = 7331;
-var customsub = "enexsolutionsftw2";
+var customsub = "customSubDomain";
 var jira = new JiraApi({
   protocol: 'https',
   host: jiraconfig.host,
